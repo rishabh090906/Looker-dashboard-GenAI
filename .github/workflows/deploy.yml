@@ -15,5 +15,5 @@ jobs:
       if: github.ref == 'refs/heads/master'
       uses: wei/curl@v1
       with:
-        args: -i -X POST -H “X-Looker-Deploy-Secret:${{ secrets.AUTODEPLOY }}” https://searcepartner.cloud.looker.com//webhooks/projects/auto_deploy/deploy
+        args: -i -X POST -H “X-Looker-Deploy-Secret:${{ secrets.AUTODEPLOY }}” https://searcepartner.cloud.looker.com/webhooks/projects/auto_deploy/deploy
         
