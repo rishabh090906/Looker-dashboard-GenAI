@@ -1,4 +1,4 @@
-- dashboard: r1 
+- dashboard: r1
   title: test_title 
   layout: newspaper
   preferred_viewer: dashboards-next
@@ -9,7 +9,7 @@
     title:  Untitled Visualization
     model:  retail_orders
     explore:  retail_orders
-    type:  looker_column
+    type:  looker_bar
     fields:  [retail_orders.average_profit, retail_orders.category]
     sorts:  [retail_orders.average_profit desc 0]
     limit:  500
