@@ -1,5 +1,6 @@
 connection: "inhouse_bi"
 include: "/views/**/*.view.lkml"
+include: "/dashboard/**/*.dashboard.lkml"
 
 datagroup: auto_generate_default_datagroup {
   max_cache_age: "1 hour"
